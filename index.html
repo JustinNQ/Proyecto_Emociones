@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detector de Estado de Ánimo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Detector de Estado de Ánimo</h1>
+  <input type="text" id="entrada" placeholder="Escribe una frase..." />
+  <button onclick="predecir()">Analizar</button>
+  <p id="resultado">Resultado: ...</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="script.js"></script>
+</body>
+</html>

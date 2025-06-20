@@ -1,0 +1,11 @@
+
+{
+  "format": "layers-model",
+  "generatedBy": "fake-export",
+  "convertedBy": "ChatGPT",
+  "modelTopology": {},
+  "weightsManifest": [{
+    "paths": ["group1-shard1of1.bin"],
+    "weights": []
+  }]
+}
